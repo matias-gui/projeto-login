@@ -58,6 +58,21 @@ main {
     text-align: center;
     padding: 10px 0px;
 }
+.dados{
+   background-color: #755f627e;
+   width: 100%;
+   margin: 3px;
+   padding: 1px;
+   border-radius: 10px;
+}
+
+input[type=email] {
+    width: 90%;
+    height: 30px;
+    border-radius: 10px;
+    border: none; 
+   
+}
 
 label {
     display: none;

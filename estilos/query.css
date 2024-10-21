@@ -10,6 +10,16 @@
     #login {
         width: 700px;
         height: 400px;
+        
+    }
+    
+    #login > #formulario > h2{
+        margin: 15px;
+        font-size: 2em;
+    }
+    
+    #login > #formulario > p {
+        margin-bottom: 15px;
     }
     #login > #imagem {
         float: left;
@@ -21,9 +31,23 @@
         float: right;
         width: 70%;
         height: 400px;
-    }
 
+    }
+    .dados {
+        height: 48px;
+        & span{
+            padding: 6px 0px 3px 6px;
+        }
+    }
+    
+    input[type=submit]{
+        height:48px ;
+    }
+    a{
+        padding: 15px;
+    }
 }
+
 
 @media screen and (min-width:992px) { 
     
@@ -33,6 +57,15 @@
     #login {
         width: 900px;
         height: 400px;
+    }
+    
+    #login > #formulario > h2{
+        margin: 15px;
+        font-size: 2em;
+    }
+    
+    #login > #formulario > p {
+        margin-bottom: 15px;
     }
 
     #login > #imagem {
@@ -47,6 +80,21 @@
         width: 50%;
         height: 500px;
     }
+    
+    .dados {
+        height: 48px;
+        & span{
+            padding: 6px 0px 3px 6px;
+        }
+    }
+    
+    input[type=submit]{
+        height:48px ;
+    }
+    a{
+        padding: 15px;
+    }
+
+
 
 }
-

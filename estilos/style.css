@@ -87,9 +87,10 @@ main {
        text-indent: 2px;
        height: 90%;
        width: calc(100% - 42px);
-       transform:translatey(-10px);
        border-radius: 7px;
        border: none;   
+
+       transform:translatey(-10px);
        
     }
     & input[type=email]:hover, input[type=password]:hover {

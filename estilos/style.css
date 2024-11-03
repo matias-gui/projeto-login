@@ -90,7 +90,7 @@ main {
        border-radius: 7px;
        border: none;   
 
-       transform:translatey(-11px);
+       transform:translatey(-12px);
        
     }
     & input[type=email]:hover, input[type=password]:hover {
